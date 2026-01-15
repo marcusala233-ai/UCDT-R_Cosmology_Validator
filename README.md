@@ -23,4 +23,4 @@ We demonstrate that the unexplained **4 nHz monopole signal** in the NANOGrav 15
 If you use this code or the UCDT-R* framework, please cite the accompanying paper.
 
 ---
-*Author: [Seu Nome]*
+*Author: MARCUS ALA PEDREIRA RORIZ*
