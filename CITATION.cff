@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Pedreira Roriz"
+  given-names: "Marcus Ala"
+title: "UCDT-R Cosmology Validator"
+version: 1.0.0
+date-released: 2026-01-18
+url: "https://github.com/marcusala233-ai/UCDT-R-Cosmology-Validator"
