@@ -1,4 +1,5 @@
 # UCDT-R* Cosmology Validator: Resolving the NANOGrav Anomaly
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18290986.svg)](https://doi.org/10.5281/zenodo.18290986)
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Physics](https://img.shields.io/badge/physics-BSM-purple)
