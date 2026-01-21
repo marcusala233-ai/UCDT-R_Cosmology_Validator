@@ -1,0 +1,34 @@
+# UCDT-R* Cosmology Validator
+### Unificação Geométrica Starobinsky-Higgs em D=5 (Refatorada)
+
+Este repositório contém a validação numérica para a teoria **UCDT-R*** (Unified Geometric Unification), que propõe um setor escuro unificado baseado em um campo escalar pNGB em um hiperespaço de assinatura (3,2).
+
+## 🔬 O Problema Físico
+O modelo original UCDT enfrentava duas patologias:
+1. **Fantasmas de Kaluza-Klein:** Devido à assinatura temporal dupla.
+2. **Fine-Tuning:** Ajuste de $10^{-158}$ necessário para a massa do campo.
+
+## 🛡️ A Solução (UCDT-R*)
+Este código implementa as correções estabilizadoras:
+* **Condição SNMC (Stabilized Non-Minimal Compactification):** Garante a estabilidade do tensor de energia-momento na dimensão extra ($T_{44} \ge 0$).
+* **Potencial pNGB:** Substitui o polinômio por $V(\phi) = \Lambda^4[1-\cos(\phi/f)]$, protegendo a massa via simetria de deslocamento (shift symmetry).
+
+## 💻 Resultados da Simulação
+O solver numérico (Runge-Kutta 4) demonstra a **Unificação do Setor Escuro**. O campo evolui de uma fase de Energia Escura ($w=-1$) para uma fase de Matéria Escura Oscilatória ($w \approx 0$).
+
+### Log de Execução (Prova de Unificação):
+```text
+t= 0.00  [-O------------------|-------------------] DE (Inflacao)
+t= 0.50  [--------O-----------|-------------------] Oscilacao
+t= 0.75  [--------------------|O------------------] ** DM (Materia) **
+...
+t=10.25  [--------------------O-------------------] ** DM (Materia) **
+
+🚀 Como Rodar
+Requer compilador C++ (g++).
+# 1. Compilar
+g++ main.cpp -o ucdt_validator
+
+# 2. Executar
+./ucdt_validator
+Autor: Marcus Ala Pedreira Roriz (UCDT-R Research Group) Validado via Assistente Gemini AI
