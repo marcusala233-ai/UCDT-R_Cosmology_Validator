@@ -2,6 +2,25 @@
 
 # UCDT-R* Cosmology: Unified Dark Sector Dynamics
 
+## 🛑 Critical Update: Gravitational Wave Polarization & NANOGrav Interpretation
+
+**Clarification on the 4 nHz Signal Nature:**
+While early drafts referenced generic anisotropy, the UCDT-R framework specifically predicts a **Scalar Breathing Mode (Spin-0)** signature, distinct from the standard Quadrupole (Spin-2) Hellings-Downs correlation expected from Supermassive Black Hole Binaries (SMBHBs).
+
+### The Mechanism
+In the UCDT-R geometry with signature $(-+++-)$, the stabilization of the extra temporal dimension radius ($R_5$) induces isotropic perturbations in the 3D spatial metric:
+
+$$h_{ij}(t) \propto \delta_{ij} \Phi(t)$$
+
+Where $\Phi(t)$ represents the "breathing" of the compactified dimension (Radion field).
+
+### Observational Signature
+This manifests in Pulsar Timing Arrays (PTAs) as a **Monopolar Correlation** in the timing residuals, appearing as a resonance peak at:
+$$f_{res} \approx \frac{c}{R_5} \approx 4.1 \text{ nHz}$$
+
+This provides a clear falsifiable criterion to distinguish UCDT-R from astrophysical foregrounds in upcoming datasets (NANOGrav 18yr / IPTA).
+
+
 [![DOI](https://zenodo.org/badge/1134625974.svg)](https://doi.org/10.5281/zenodo.18290985)
 
 ![Status](https://img.shields.io/badge/Status-Validated-success) ![Physics](https://img.shields.io/badge/Physics-BSM_Cosmology-blueviolet) ![License](https://img.shields.io/badge/License-MIT-green)
